@@ -3,12 +3,12 @@
 
 namespace Animals
 {
-	class Cat : public Animal
+	class Dog : public Animal
 	{
 	public:
-		Cat(int age, string name);
+		Dog(int age, string name);
 		void talk();
 		void eat();
-		void sleep();	
+		void play();
 	};
 }

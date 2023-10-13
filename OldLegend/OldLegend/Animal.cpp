@@ -4,7 +4,12 @@
 using namespace Animals;
 
 
-void Animal::talk()
+
+int Animal::getAge()
 {
-	std::cout << "I am animal" << std::endl;
+	return age;
+}
+string Animal::getName()
+{
+	return name;
 }
